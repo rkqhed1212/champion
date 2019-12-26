@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.mega.myod01.NoticeDTO" alias="noticeDTO"></typeAlias>
+		<typeAlias type="com.mega.myod01.CommentDTO" alias="commentDTO"></typeAlias>
+	</typeAliases>
+	<mappers>
+		<mapper resource="Mapper/noticeMapper.xml" />
+		<mapper resource="Mapper/commentMapper.xml" />
+	</mappers>
+</configuration>
